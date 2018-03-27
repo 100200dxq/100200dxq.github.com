@@ -16,3 +16,13 @@
     </div>
 </body>
 </html>
+<script>
+    var link=document.getElementsByClassName('link');
+    for(var a=0;a<link.length;a++){
+        link[a].index=a;
+        link[a].onclick=function(){
+            console.log(this.index);
+        }
+    }
+
+</script>
